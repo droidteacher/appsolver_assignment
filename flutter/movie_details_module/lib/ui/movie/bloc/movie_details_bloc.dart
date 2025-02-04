@@ -43,7 +43,6 @@ class MovieDetailsBloc extends Bloc<MovieDetailsEvent, MovieDetailsState> {
 
   void _onToggleFavorite(
       ToggleFavorite event, Emitter<MovieDetailsState> emit) {
-    debugPrint('5555 in Flutter !!!!!!!!!!! _onToggleFavorite !!!!!!!!!!!');
     _isFavorite = !_isFavorite;
 
     if (_currentMovieId != null) {
@@ -57,7 +56,6 @@ class MovieDetailsBloc extends Bloc<MovieDetailsEvent, MovieDetailsState> {
   Future<void> _retrieveMovieId() async {
     try {
       Map payload = await platform.invokeMethod('getSelectedMovieId');
-      debugPrint('5555 in Flutter !!!!!!!!!!! ::_retrieveMovideId, $payload');
       int movieId = payload['movieId'] as int;
       bool currentlyFavorite = payload['favorite'] as bool;
       add(UserDidSelectMovie(
