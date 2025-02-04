@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie Facts</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="title_activity_integration">IntegrationActivity</string>
+    <string name="title_activity_movie_list">MovieList</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>

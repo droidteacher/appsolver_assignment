@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Padding, Margin-->
+    <dimen name="paddingSize_zero">0dp</dimen>
+    <dimen name="paddingSize_xxSmall">1dp</dimen>
+    <dimen name="paddingSize_xSmall">2dp</dimen>
+    <dimen name="paddingSize_small">4dp</dimen>
+    <dimen name="paddingSize_belowMedium">6dp</dimen>
+    <dimen name="paddingSize_medium">8dp</dimen>
+    <dimen name="paddingSize_large">12dp</dimen>
+    <dimen name="paddingSize_xLarge">16dp</dimen>
+    <dimen name="paddingSize_xxLarge">20dp</dimen>
+    <dimen name="paddingSize_xxxLarge">28dp</dimen>
+
+    <!--Text sizes-->
+    <dimen name="fontSize_min">8sp</dimen>
+    <dimen name="fontSize_micro">12sp</dimen>
+    <dimen name="fontSize_small">14sp</dimen>
+    <dimen name="fontSize_medium">16sp</dimen>
+    <dimen name="fontSize_aboveMedium">17sp</dimen>
+    <dimen name="fontSize_belowLarge">18sp</dimen>
+    <dimen name="fontSize_large">20sp</dimen>
+    <dimen name="fontSize_aboveLarge">24sp</dimen>
+    <dimen name="fontSize_xLarge">34sp</dimen>
+    <dimen name="fontSize_xxLarge">45sp</dimen>
+    <dimen name="fontSize_xxxLarge">56sp</dimen>
+    
+    <!-- Divider -->
+    <dimen name="divider_thickness">3dp</dimen>
+
+    <!--Icon sizes-->
+    <dimen name="iconSize_small">20dp</dimen>
+    <dimen name="iconSize_normal">32dp</dimen>
+    <dimen name="iconSize_circle">60dp</dimen>
+
+    <dimen name="icon_border">1dp</dimen>
+
+    <!-- Spacers -->
+    <dimen name="spacerSize_large">20dp</dimen>
+    <dimen name="spacerSize_medium">10dp</dimen>
+    <dimen name="spacerSize_small">5dp</dimen>
+
+    <!-- Rounded corners -->
+    <dimen name="roundedCornerSize_small">5dp</dimen>
+    <dimen name="roundedCornerSize_medium">10dp</dimen>
+</resources>
